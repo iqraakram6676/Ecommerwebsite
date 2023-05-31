@@ -1,0 +1,168 @@
+/*Header*/
+header{
+    padding: 20px;
+}
+p{
+	color: black;
+	font-family: Roboto Regular;
+}
+.main_menu ul{
+	list-style: none;
+	text-align: center;
+}
+.main_menu ul li{
+	display: inline-block;
+	text-decoration: none;
+}
+.main_menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	padding: 20px;
+	font-family: Roboto Medium;
+	font-size: 25px;
+}
+.header_icon ul{
+   list-style: none;
+}
+.header_icon ul li{
+	text-decoration: none;
+	display: inline-block;
+}
+.header_icon ul li a{
+	text-decoration: none;
+	padding: 10px;
+}
+.header_icon ul li a i{
+	font-size: 23px;
+	color: black;
+}
+/*Main Banner*/
+.Main_Banner{
+    background-image: url(../images/AboutUs_mainbanner.png);
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.Main_Banner h1{
+    color: white;
+    font-family: PlayfairDisplay;
+    margin-top: 220px;
+    font-weight: 900;
+    font-size: 75px;
+}
+/*Billing Address*/
+.billing_address{
+	background-color: #234f4b;
+	width: 100%;
+	height: 60px
+}
+.form{
+	margin-top: 20px;
+}
+.billing_address h1{
+   color: white;
+}
+.form input{
+   width: 100%;
+   margin: 12px;
+}
+#country{
+	margin: 35px 38px 8px 0;
+}
+#first_name {
+    margin: 18px 38px 8px 0;
+}
+label#last_name {
+    margin: 25px 0 5px 0;
+}
+label#company_name {
+    margin: 22px 0 0 0;
+}
+label#address {
+    margin: 30px 43px 0 0;
+}
+label#town {
+    margin: 86px 55px 24px 0;
+}
+label#email {
+    margin: 7px 84px 32px 0;
+}
+.order_txt{
+	margin-top: 30px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.Order_detail{
+	border: 1px solid black;
+	padding: 16px;
+}
+.Order_detail p {
+	margin: 0 0 0 0;
+}
+.Order_detail span{
+	margin-left: 16px;
+}
+.Order_detail img{
+	margin-left: 3px;
+}
+#payment{
+	margin-right: 173px;
+}
+button{
+	background-color: #234f4b;
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 86px;
+    margin-top: 15PX;
+    width: 50%;
+    height: 37px;
+}
+/*Footer*/
+
+.footer{
+    background-image: url(../images/footer_background.png);
+    height: 430px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 556px 0 0 0;
+}
+.footer_icon img{
+    margin: 100px 0 0 0;
+}
+.message_info img{
+   margin: 100 0 0 0;   
+}
+.contact_info a{
+    text-decoration: none;
+    color: white;
+    margin: 0 0 60px 10px;
+}
+.contact_info img{
+   margin: 0 9px 0 0;
+}
+.contact_info p{
+    display: inline-block;
+    color: white;
+    margin: 40px 0 0 0;
+}
+.footer_nav h3{
+    margin: 100px 0 35px 0;
+}
+.footer_nav ul{
+    list-style: none;
+}
+.footer_nav ul li{
+    text-decoration: none;
+    margin-bottom: 12px;
+    margin-left: -29px;
+}
+.footer_nav ul li a{
+    color: #8c8c8c;
+    text-decoration: none;
+}
